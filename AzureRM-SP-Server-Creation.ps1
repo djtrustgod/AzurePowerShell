@@ -4,10 +4,10 @@
 Login-AzureRmAccount
 
 # Set up key variables
-$subscrName="BizSpark"
-$rgName="DGSP2016"
-$locName="West US"
-$dnsName="deglspsrv16"
+$subscrName="<YourSubscriptionName>"
+$rgName="<YourResourceGroupName>"
+$locName="<YourAzureRegionName>"
+$dnsName="<InterentDNSAddressName>"
 
 # Set the Azure subscription
 Get-AzureRmSubscription -SubscriptionName $subscrName | Select-AzureRmSubscription

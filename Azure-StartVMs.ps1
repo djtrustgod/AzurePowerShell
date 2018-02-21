@@ -4,10 +4,10 @@ Login-AzureRMAccount
 
 
 # Set up key variables
-$subscrName="BizSpark"
-$rgName="DGSP2016"
-$locName="West US"
-$dnsName="deglsqlsp16"
+$subscrName="<YourSubscriptionName>"
+$rgName="<YourResourceGroupName>"
+$locName="<YourAzureRegionName>"
+$dnsName="<InterentDNSAddressName>"
 $server1 ="adVM"
 $server2 ="sqlVM"
 $server3 ="spVM"
